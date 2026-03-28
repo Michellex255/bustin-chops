@@ -1,0 +1,17 @@
+/* TEAM */
+
+Developer: Michelle
+Site: bustin-chops
+Location: Netherlands
+
+/* THANKS */
+
+SheCodes - For the bootcamp and hosting
+Claude AI - For pair programming assistance
+
+/* SITE */
+
+Last update: 2025
+Language: English
+Standards: HTML5, CSS3, ES6+
+Software: VS Code, Git

@@ -1,0 +1,28 @@
+{
+  "name": "bustin-chops",
+  "version": "1.0.0",
+  "description": "Landing page for Bustin' Chops - Authentic South African Biltong",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000",
+    "dev": "npx live-server --port=3000 --open=/index.html"
+  },
+  "keywords": [
+    "biltong",
+    "south-african",
+    "food",
+    "landing-page"
+  ],
+  "author": "Michelle",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {},
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ]
+}

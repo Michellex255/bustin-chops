@@ -1,0 +1,8 @@
+# Bustin' Chops - robots.txt
+# https://www.robotstxt.org/
+
+User-agent: *
+Allow: /
+
+# Sitemap location (add your domain when deployed)
+# Sitemap: https://yourdomain.com/sitemap.xml

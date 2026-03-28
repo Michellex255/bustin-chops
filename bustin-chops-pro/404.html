@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - Bustin' Chops</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #391F0D;
+            color: #F3EFE7;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 8rem;
+            font-weight: 700;
+            color: #AA3D1D;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #C5BBB1;
+            margin-bottom: 30px;
+            max-width: 400px;
+        }
+
+        .home-btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: #AA3D1D;
+            color: #F3EFE7;
+            text-decoration: none;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            border-radius: 4px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .home-btn:hover {
+            background-color: #672714;
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 5rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>404</h1>
+    <h2>Oops! Page not found</h2>
+    <p>Looks like this biltong got eaten before you could find it. Let's get you back on track.</p>
+    <a href="index.html" class="home-btn">Back to Home</a>
+</body>
+</html>
